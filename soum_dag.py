@@ -196,6 +196,7 @@ def Data_extraction() :
 
 def main():
     Daily_data = Data_extraction()
+    print("Data_extraction done")
     transformed = transform_soum_ads(Daily_data)
     return transformed
 
