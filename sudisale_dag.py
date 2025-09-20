@@ -149,6 +149,7 @@ def transform_listings(listings):
 
 def main():
     Daily_data = Data_extraction()
+    print("Data_extraction done")
     transformed = transform_listings(Daily_data)
     return transformed
 
