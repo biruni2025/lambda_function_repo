@@ -190,6 +190,7 @@ def append_daily_data(daily_data: list[dict]):
 
 def main():
     daily_data = Data_extraction()
+    print("Data_extraction done")
     transformed_data = transform_car_data(daily_data)
     return transformed_data
     
