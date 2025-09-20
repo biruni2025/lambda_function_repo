@@ -132,7 +132,9 @@ def append_daily_data(daily_data: list[dict]):
 
 def main():
     Daily_data = Data_extraction()
+    print("Data_extraction done")
     transformed = transform_ads(Daily_data)
+
     return transformed
 
 
